@@ -14,7 +14,7 @@ The project demonstrates core CG concepts such as **3D transformations, animatio
 - ⭐ Procedural star background
 - 🎥 Interactive camera controls
 - ⏱️ Smooth animation with time scaling
-- 🎨 Optional texture mapping for planets
+- 🎨 Texture mapping for planets
 - 🧩 Modular and clean code structure
 
 ---
@@ -30,12 +30,25 @@ The project demonstrates core CG concepts such as **3D transformations, animatio
 
 ## 📁 Project Structure
 
-```text
-solar-system/
-├── main.py        
-├── planets.py     
-├── camera.py      
-├── utils.py       
-├── .gitignore
-└── README.md
-```
+solar-system-opengl/
+│
+├─ main.py                
+├─ camera.py              
+├─ planets.py             
+├─ utils.py              
+├─ asteroids.py           
+├─ readme.md              
+│
+├─ textures/              
+│   ├─ sun.jpg
+│   ├─ mercury.jpg
+│   ├─ venus.jpg
+│   ├─ earth.jpg
+│   ├─ mars.jpg
+│   ├─ jupiter.jpg
+│   ├─ saturn.jpg
+│   ├─ uranus.jpg
+│   └─ neptune.jpg
+│
+├─ .gitignore             
+└─ venv/        

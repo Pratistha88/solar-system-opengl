@@ -24,5 +24,6 @@ def generate_stars(count=800, radius=120):
         x = random.uniform(-radius, radius)
         y = random.uniform(-radius, radius)
         z = random.uniform(-radius, radius)
-        stars.append((x, y, z))
+        brightness = random.uniform(0.5, 1.0)
+        stars.append((x, y, z, brightness))
     return stars
